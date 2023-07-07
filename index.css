@@ -1,0 +1,232 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 5rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 6rem;
+    background-color: black;
+    color: white; 
+    cursor: pointer;
+    
+}
+nav ul li:hover{
+  color: lightgreen;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+ul li {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: rgb(253, 251, 251);
+    color: white;
+    margin: 2.3rem auto;
+    width: 70vw;
+    border-radius: 1.2rem;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    background-image: url(images/bgimg.png);
+    background-size: 30rem;
+    background-position: right center;
+    background-repeat: no-repeat;
+   
+    background-color: black;
+
+}
+
+#pl {
+    height: 30rem;
+    width: 40rem;
+
+
+}
+
+
+
+
+.bottom {
+    position: sticky;
+    height: 15rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+
+}
+
+#my1 {
+    width: 80vw;
+    margin-top: 3rem;
+}
+
+.icon {
+    height: 3rem;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.wo {
+    margin-right: 4rem;
+}
+
+.songlist {
+  
+    margin-left: 2rem;
+    height: 50rem;
+    width: 60rem;
+    margin-bottom: 3rem;
+  
+    margin-bottom: 2;
+
+}
+
+h3 {
+    color: white;
+    margin-right: 9rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+
+}
+h3:hover{
+    color:lightgreen;
+    cursor: pointer;
+}
+
+.sitem {
+  
+    height: 46rem;
+    width: 50rem;
+    
+
+}
+
+.f1 img {
+    height: 4rem;
+    width: 4em;
+    margin-left: 4rem;
+    border-radius: 10rem;
+
+
+}
+
+.f1 {
+    border: 2px solid rgb(252, 250, 250);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    border-radius: 1rem;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.f1 span {
+    color: black;
+
+    font-size: 2rem;
+   
+}
+
+.f1 .time {
+    margin-right: .5rem;
+}
+
+#dek {
+    margin-left: 5.3rem;
+}
+
+.yo {
+    margin-left: 5rem;
+}
+
+#d {
+    margin-left: 15.3rem;
+}
+
+#m {
+    margin-left: 7rem;
+}
+
+#r {
+    margin-left: 14rem;
+}
+
+#b {
+    margin-left: 11rem;
+    position: relative;
+    margin-top: .2rem;
+
+}
+
+span i {
+    margin-left: 2rem;
+}
+
+.songinfo img {
+    width: 8rem;
+   position: relative;
+   right: 56rem;
+   opacity: 0;
+   transition: opacity is ease-in ;
+}
+#left{
+    margin-right: 15px;
+}
+#right{
+    margin-left: 15px;
+    
+}
+#right,#left,#masterplay:hover{
+    cursor: pointer;
+}
+   
+.gimg{
+    display: inline-block;
+    
+   
+    position: relative;
+    right: 500px;
+    top: -62px;
+}
+#gif{
+    height: 70px;
+    width: 150px;
+    
+}
+#play{
+   
+    height: 20px;
+    width: 20px;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+ 
